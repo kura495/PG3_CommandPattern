@@ -11,66 +11,6 @@
     <Filter Include="リソース ファイル\hlsl">
       <UniqueIdentifier>{35d39956-fa52-4e51-b1d6-3e70ed846589}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameObjectヘッダー">
-      <UniqueIdentifier>{9902b081-ade2-499b-b33e-59099ae83bb3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Camera">
-      <UniqueIdentifier>{d8f18e12-536f-43ae-9bce-8521a74482bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Player">
-      <UniqueIdentifier>{712ff644-f87c-45a2-a0ae-3747445e0699}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\SkyDome">
-      <UniqueIdentifier>{3d981d0e-9f2c-4c9f-b877-71608828aef6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\FollowCamera">
-      <UniqueIdentifier>{fb35d2b1-76ac-4908-a3fb-1fbf2fdb08b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\BaseCharacter">
-      <UniqueIdentifier>{2a2e8b0b-cf70-448e-be47-18a8a0a2548b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Enemy">
-      <UniqueIdentifier>{5045761e-8e3c-47ad-83e9-ba49ff925e0d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Plane">
-      <UniqueIdentifier>{2e74351b-b2c4-42a3-aaf1-5ac359ea1d78}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Goal">
-      <UniqueIdentifier>{a1b1ecce-259f-4c32-a5e6-701ff8a10c83}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース">
-      <UniqueIdentifier>{042e87f0-d2fd-4e2d-9e88-b8a6ff7ba3a5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Camera">
-      <UniqueIdentifier>{500fad0c-668b-452c-b8a4-51bb11f7f1be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Player">
-      <UniqueIdentifier>{868ac8c4-51f7-4e4d-84d2-a593551c37fd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\SkyDome">
-      <UniqueIdentifier>{04fecf81-81be-44b1-b944-406b20354e3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\FollowCamera">
-      <UniqueIdentifier>{f9e54783-01d0-40d3-8536-5de2da060474}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\BaseCharacter">
-      <UniqueIdentifier>{ce6fd290-0e24-41fc-b133-d55c0d840272}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Enemy">
-      <UniqueIdentifier>{2bfda8f9-1e4b-4581-9395-566e19a8ed7e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Plane">
-      <UniqueIdentifier>{814c319e-e679-452e-bf57-08ee55196e52}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Goal">
-      <UniqueIdentifier>{b47fc20f-045c-4b9b-815d-e039ba24f1bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectヘッダー\Weapon">
-      <UniqueIdentifier>{79a0e5bc-c5df-411b-a54d-b745aba3dfe6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObjectソース\Weapon">
-      <UniqueIdentifier>{380dc543-3613-4c6d-8476-47cc413540b2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Engine">
       <UniqueIdentifier>{861af4d5-3558-4d04-b401-56f592d6ea2c}</UniqueIdentifier>
     </Filter>
@@ -128,6 +68,9 @@
     <Filter Include="Scenes\State">
       <UniqueIdentifier>{815f09b2-983d-4b5d-9155-7098162ef22a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Base\Camera">
+      <UniqueIdentifier>{83eb9341-d07b-4046-8525-96393a50cc9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="externals\imgui\imgui.cpp">
@@ -151,9 +94,6 @@
     <ClCompile Include="externals\imgui\imgui_widgets.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
-    <ClCompile Include="GameObject\Camera\Camera.cpp">
-      <Filter>GameObjectソース\Camera</Filter>
-    </ClCompile>
     <ClCompile Include="Scenes\Manager\GameManager.cpp">
       <Filter>Scenes\Manager</Filter>
     </ClCompile>
@@ -165,9 +105,6 @@
     </ClCompile>
     <ClCompile Include="Scenes\State\GameTitleState.cpp">
       <Filter>Scenes\State</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Player\Player.cpp">
-      <Filter>GameObjectソース\Player</Filter>
     </ClCompile>
     <ClCompile Include="Base\Input\Input.cpp">
       <Filter>Engine\Base\Input</Filter>
@@ -181,32 +118,8 @@
     <ClCompile Include="Base\Audio\Audio.cpp">
       <Filter>Engine\Base\Audio</Filter>
     </ClCompile>
-    <ClCompile Include="GameObject\Skydome\Skydome.cpp">
-      <Filter>GameObjectソース\SkyDome</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\FollowCamera\FollowCamera.cpp">
-      <Filter>GameObjectソース\FollowCamera</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\BaseCharacter\BaseCharacter.cpp">
-      <Filter>GameObjectソース\BaseCharacter</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Enemy\Enemy.cpp">
-      <Filter>GameObjectソース\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Plane\Plane.cpp">
-      <Filter>GameObjectソース\Plane</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Plane\MovePlane.cpp">
-      <Filter>GameObjectソース\Plane</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Goal\Goal.cpp">
-      <Filter>GameObjectソース\Goal</Filter>
-    </ClCompile>
     <ClCompile Include="Base\Math\Calc.cpp">
       <Filter>Engine\Base\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject\Weapon\Weapon.cpp">
-      <Filter>GameObjectソース\Weapon</Filter>
     </ClCompile>
     <ClCompile Include="Base\Utility\BoxCollider.cpp">
       <Filter>Engine\Base\Collider</Filter>
@@ -266,9 +179,6 @@
       <Filter>Engine\Base</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="GameObject\Player\LockOn.cpp">
-      <Filter>GameObjectソース\Player</Filter>
-    </ClCompile>
     <ClCompile Include="Base\ParticleSystem\Particle.cpp">
       <Filter>Engine\Base\ParticleSystem</Filter>
     </ClCompile>
@@ -286,6 +196,9 @@
     </ClCompile>
     <ClCompile Include="Base\Manager\PSOManager.cpp">
       <Filter>Engine\Base\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Camera\Camera.cpp">
+      <Filter>Engine\Base\Camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -313,12 +226,6 @@
     <ClInclude Include="externals\imgui\imstb_truetype.h">
       <Filter>imgui</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject\Camera\Camera.h">
-      <Filter>GameObjectヘッダー\Camera</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Player\Player.h">
-      <Filter>GameObjectヘッダー\Player</Filter>
-    </ClInclude>
     <ClInclude Include="Base\Model_Struct\Material.h">
       <Filter>Engine\Base\Model_Struct</Filter>
     </ClInclude>
@@ -345,30 +252,6 @@
     </ClInclude>
     <ClInclude Include="Base\Utility\Log.h">
       <Filter>Engine\Base\Utility</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Skydome\Skydome.h">
-      <Filter>GameObjectヘッダー\SkyDome</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\FollowCamera\FollowCamera.h">
-      <Filter>GameObjectヘッダー\FollowCamera</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\BaseCharacter\BaseCharacter.h">
-      <Filter>GameObjectヘッダー\BaseCharacter</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Enemy\Enemy.h">
-      <Filter>GameObjectヘッダー\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Plane\Plane.h">
-      <Filter>GameObjectヘッダー\Plane</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Plane\MovePlane.h">
-      <Filter>GameObjectヘッダー\Plane</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Goal\Goal.h">
-      <Filter>GameObjectヘッダー\Goal</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject\Weapon\Weapon.h">
-      <Filter>GameObjectヘッダー\Weapon</Filter>
     </ClInclude>
     <ClInclude Include="Base\Audio\Audio.h">
       <Filter>Engine\Base\Audio</Filter>
@@ -451,9 +334,6 @@
     <ClInclude Include="Base\WorldTransform.h">
       <Filter>Engine\Base</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject\Player\LockOn.h">
-      <Filter>GameObjectヘッダー\Player</Filter>
-    </ClInclude>
     <ClInclude Include="Base\ParticleSystem\Particle.h">
       <Filter>Engine\Base\ParticleSystem</Filter>
     </ClInclude>
@@ -492,6 +372,9 @@
     </ClInclude>
     <ClInclude Include="Scenes\State\IgameState.h">
       <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Camera\Camera.h">
+      <Filter>Engine\Base\Camera</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
