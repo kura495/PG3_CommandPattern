@@ -12,7 +12,6 @@ void GamePlayState::Initialize()
 
 	DirectX_ = DirectXCommon::GetInstance();
 
-	collisionManager_ = std::make_unique<CollisionManager>();
 	//
 	//3Dオブジェクト生成
 
