@@ -104,6 +104,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatFormVersion)\x64\dxil.dll"</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Base\Audio\Audio.cpp" />
+    <ClCompile Include="Base\Camera\Camera.cpp" />
     <ClCompile Include="Base\DirectXCommon.cpp" />
     <ClCompile Include="Base\Input\Input.cpp" />
     <ClCompile Include="Base\Light.cpp" />
@@ -140,17 +141,6 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatFormVersion)\x64\dxil.dll"</Command>
     <ClCompile Include="externals\imgui\imgui_impl_win32.cpp" />
     <ClCompile Include="externals\imgui\imgui_tables.cpp" />
     <ClCompile Include="externals\imgui\imgui_widgets.cpp" />
-    <ClCompile Include="GameObject\BaseCharacter\BaseCharacter.cpp" />
-    <ClCompile Include="GameObject\Camera\Camera.cpp" />
-    <ClCompile Include="GameObject\Enemy\Enemy.cpp" />
-    <ClCompile Include="GameObject\FollowCamera\FollowCamera.cpp" />
-    <ClCompile Include="GameObject\Goal\Goal.cpp" />
-    <ClCompile Include="GameObject\Plane\MovePlane.cpp" />
-    <ClCompile Include="GameObject\Plane\Plane.cpp" />
-    <ClCompile Include="GameObject\Player\LockOn.cpp" />
-    <ClCompile Include="GameObject\Player\Player.cpp" />
-    <ClCompile Include="GameObject\Skydome\Skydome.cpp" />
-    <ClCompile Include="GameObject\Weapon\Weapon.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Scenes\Manager\GameManager.cpp" />
     <ClCompile Include="Scenes\State\GameClearState.cpp" />
@@ -159,6 +149,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatFormVersion)\x64\dxil.dll"</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\Audio\Audio.h" />
+    <ClInclude Include="Base\Camera\Camera.h" />
     <ClInclude Include="Base\DirectXCommon.h" />
     <ClInclude Include="Base\Input\Input.h" />
     <ClInclude Include="Base\Light.h" />
@@ -210,17 +201,6 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatFormVersion)\x64\dxil.dll"</Command>
     <ClInclude Include="externals\imgui\imstb_rectpack.h" />
     <ClInclude Include="externals\imgui\imstb_textedit.h" />
     <ClInclude Include="externals\imgui\imstb_truetype.h" />
-    <ClInclude Include="GameObject\BaseCharacter\BaseCharacter.h" />
-    <ClInclude Include="GameObject\Camera\Camera.h" />
-    <ClInclude Include="GameObject\Enemy\Enemy.h" />
-    <ClInclude Include="GameObject\FollowCamera\FollowCamera.h" />
-    <ClInclude Include="GameObject\Goal\Goal.h" />
-    <ClInclude Include="GameObject\Plane\MovePlane.h" />
-    <ClInclude Include="GameObject\Plane\Plane.h" />
-    <ClInclude Include="GameObject\Player\LockOn.h" />
-    <ClInclude Include="GameObject\Player\Player.h" />
-    <ClInclude Include="GameObject\Skydome\Skydome.h" />
-    <ClInclude Include="GameObject\Weapon\Weapon.h" />
     <ClInclude Include="Scenes\Manager\GameManager.h" />
     <ClInclude Include="Scenes\State\GameClearState.h" />
     <ClInclude Include="Scenes\State\GamePlayState.h" />
