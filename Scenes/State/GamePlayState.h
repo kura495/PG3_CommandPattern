@@ -20,6 +20,11 @@
 #include "Math_Structs.h"
 #include "Base/Math/Quaternion/Quaternion.h"
 
+#include "GameObject/Player/Player.h"
+
+#include "Command/Command.h"
+#include "InputHandle/InputHandle.h"
+
 
 class GamePlayState :public GameState
 {
@@ -40,7 +45,11 @@ private:
 	DirectXCommon* DirectX_ = nullptr;
 	GlobalVariables* globalVariables = nullptr;
 
+	ViewProjection viewProjection;
 
+	InputHandler* inputHandler_ = nullptr;
+	Command* command_ = nullptr;
+	std::unique_ptr<Player> player_;
 
 	
 };

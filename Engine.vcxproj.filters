@@ -71,6 +71,18 @@
     <Filter Include="Engine\Base\Camera">
       <UniqueIdentifier>{83eb9341-d07b-4046-8525-96393a50cc9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{125bf5dc-4ddc-454e-98d0-f1f54de983a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{5e6221c0-5a5a-4872-984a-03872705dae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{57118159-5310-4acd-8efa-870dc0c9e195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputHandle">
+      <UniqueIdentifier>{def8ff4f-fafd-4ca0-b4a8-f1b2b95910fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="externals\imgui\imgui.cpp">
@@ -199,6 +211,15 @@
     </ClCompile>
     <ClCompile Include="Base\Camera\Camera.cpp">
       <Filter>Engine\Base\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player\Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandle\InputHandle.cpp">
+      <Filter>InputHandle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -375,6 +396,15 @@
     </ClInclude>
     <ClInclude Include="Base\Camera\Camera.h">
       <Filter>Engine\Base\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player\Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandle\InputHandle.h">
+      <Filter>InputHandle</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
